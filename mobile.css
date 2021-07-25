@@ -1,0 +1,367 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+[class*="col-"]{
+	width: 100%;
+}
+
+[class*="col-"]{
+	float: left;
+	
+}
+
+
+
+
+
+
+
+
+
+.container{
+	background-color: #E4F9F5;
+	max-width: 100%;
+	height: 100%;
+	padding: 10px;
+	margin: 10px 10px auto;
+}
+/*--------header start form here-------*/
+
+header{
+	text-align: center;
+}
+
+
+header img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 2px solid magenta;
+}
+
+
+
+h3{
+	font-family: 'Zen Tokyo Zoo', cursive;
+}
+.header-contact{
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+
+}
+.header-contact a{
+	background-color: lightblue;
+	color: red;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 10px auto;
+	padding: 10px;
+	width: 90%;
+	height: 40px;
+	
+}
+
+.header-contact a:hover{
+	background-color: goldenrod;
+	color: white;
+}
+#a a:{
+	transition: .4s;
+}
+
+
+#a a:hover{
+	background-color: red;
+	transform: scale(.9);
+}
+
+/*-----------header start form here---------*/
+/*------ main section-1 srart form here-- --*/
+
+#personal-section{
+
+}
+.content{
+	width: 100%;
+
+	padding: 15px;
+	margin: 15px;
+
+}
+.left-div > h1{
+	font-size: ;
+	color: #146FED;
+}
+.left-div{
+	width: 30%;
+  float: left;
+ 
+
+}
+.right-div{
+	width: 70%;
+	float: left;
+}
+.right-div > p{
+	color: #275019;
+	font-size: 1.5rem;
+	padding: 10px;
+	
+}
+
+/*------ main section-1 end form here-- --*/
+.right-div h1{
+	color: blue;
+}
+ .p{
+	color: red;
+}
+/*main location section start form here*/
+.maps-tittle-1{
+	margin-top: 10px;
+}
+.maps-tittle-2{
+	margin-top: 10px;
+}
+.maps-tittle-3{
+	margin-top: 10px;
+}
+.maps-tittle-4{
+	margin-top: 10px;
+}
+.location-h-1{
+	text-align: center;
+	color: red;
+}
+.dotted-hr{
+	width: 70%;
+	margin: 10px auto;
+	border: 5px dotted black;
+	border-bottom: none;
+}
+.frame{
+	transition: .4s;
+}
+.frame:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(.9);
+}
+
+/*main location section end form here*/
+
+/*main section freind start form here*/
+
+.freind-h2{
+	text-align: center;
+}
+.deshed-hr{
+	width: 300px;
+	border: 4px dashed red;
+	border-bottom: none;
+	margin: 6px auto;
+}
+
+.img-f{
+	height: 200px;
+	width: 300px;
+	padding: 10px;
+}
+.img-f{
+	transition: .4s;
+}
+.img-f:hover{
+	transform: scale(.9);
+	box-shadow: 2px 3px 2px 3px black;
+}
+
+
+
+
+.img-f-6{
+	width: 300px;
+	height: 200px;
+	padding: 10px;
+	transition: .4s;
+}
+.img-f-6:hover{
+	transform: scale(.9);
+	box-shadow:2px 3px 2px 3px black ;
+}
+.h2-f{
+	text-align: center;
+	font-family: 'Handlee',cursive;
+	/*font-family: 'Alegreya', serif;
+	font-family: 'Handlee',cursive;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;*/
+}
+.f-button{
+	border: none;
+	text-align: center;
+	border-radius: 50%;
+}
+.f-button:hover{
+	background-color: green;
+	border-radius: 50%;
+	color: white;
+}
+
+
+
+/*main section freind end form here*/
+
+/*------footer start form here-------*/
+#footer{
+	text-align: center;
+	margin-top: 50px;
+}
+.footer-text-1{
+	background-color: black;
+	height: 40px ;
+	color: white;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+.footer-text-2{
+	background-color: black;
+	color: white;
+	height: 40px;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+.footer-button-icon{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+
+.button-div-1{
+	background-color: red;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-1:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+.button-div-2{
+	background-color:green;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-2:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+
+.button-div-3{
+	background-color: blue;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-3:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+.button-div-4{
+	background-color: lightcoral;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-4:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+.button-div-5{
+	background-color:salmon;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-5:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+.button-div-6{
+	background-color: blue;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-6:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+.button-div-7{
+	background-color: greenyellow;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-7:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+
+.button-div-8{
+	background-color: ;
+	width: 70px;
+	border-radius: 50%;
+	transition: .4s;
+}
+.button-div-8:hover{
+	box-shadow: 2px 3px 2px 3px black;
+	transform: scale(1);
+}
+
+
+.btn{
+	border: none;
+	margin: 10px 20px;
+	border-radius: 100%;
+	
+}
+.btn:hover{
+	box-shadow: 2px 3px 2px 3px black;
+}
+.arrow{
+	background-color: red;
+	width: 100px;
+	
+}
+
+
+
+
+
+
+/*------footer end form here-------*/
+
+
+
+
+	.col-sm-1{width: 8.33%;}
+	.col-sm-2{width: 16.66%;}
+	.col-sm-3{width: 25%;}
+	.col-sm-4{width: 33.33%;}
+	.col-sm-5{width: 41.66%;}
+	.col-sm-6{width: 50%;}
+	.col-sm-7{width: 58.33%;}
+	.col-sm-8{width: 66.66%;}
+	.col-sm-9{width: 75%;}
+	.col-sm-10{width: 83.33%;}
+	.col-sm-11{width: 91.66%;}
+	.col-sm-12{width: 100%;}
